@@ -8,4 +8,4 @@ spring:
       data-locations: classpath:data.sql
   jpa:
     hibernate:
-      ddl-auto: create-only
+      ddl-auto: create-drop
