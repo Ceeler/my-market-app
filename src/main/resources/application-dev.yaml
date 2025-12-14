@@ -3,3 +3,9 @@ spring:
     url: jdbc:postgresql://localhost:5432/mymarket
     username: ceeler
     password: root
+  sql:
+    init:
+      data-locations: classpath:data.sql
+  jpa:
+    hibernate:
+      ddl-auto: create-only
